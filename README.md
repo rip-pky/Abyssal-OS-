@@ -1,6 +1,9 @@
 # 🌌 Abyssal OS
 
 **Command the Deep.** ⚓
+---
+### 🚧 Status do Projeto
+O **Abyssal OS** encontra-se atualmente em fase de desenvolvimento ativo. Estamos refinando os scripts, testando a estabilidade dos pacotes e estruturando o nosso repositório (ACR). A primeira versão estável será lançada em breve. Fique de olho no repositório para atualizações! ⏳
 
 ---
 
