@@ -1,70 +1,77 @@
-# 🌌 Abyssal OS
+# 🌌 Abyssal OS [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Status](https://img.shields.io/badge/Status-Development-blue)](https://github.com/rip-pky/Abyssal-OS-)
 
-**Command the Deep.** ⚓
----
-### 🚧 Status do Projeto
-O **Abyssal OS** encontra-se atualmente em fase de desenvolvimento ativo. Estamos refinando os scripts, testando a estabilidade dos pacotes e estruturando o nosso repositório (ACR). A primeira versão estável será lançada em breve. Fique de olho no repositório para atualizações! ⏳
+**"Command the Deep."** ⚓
 
 ---
 
-## 📖 Sobre o Projeto
-O **Abyssal OS** nasce da necessidade de preencher uma lacuna no ecossistema Linux: a convergência entre a robustez de uma base sólida (Fedora) e a estética de sistemas minuciosamente customizados. Não somos apenas mais uma "reskin"; somos uma plataforma voltada para usuários que exigem performance, elegância e um ambiente de trabalho que não atrapalhe o fluxo criativo.
+## 📖 Visão Geral
+O **Abyssal OS** não é apenas uma distribuição; é uma solução de engenharia de sistema voltada para a convergência entre a robustez de nível corporativo do **Fedora** e a elegância estética do *ricing* moderno. Nosso foco é oferecer um ambiente de trabalho desobstruído, onde cada bit de performance é extraído do hardware.
 
-O Abyssal OS é uma distribuição Linux voltada para quem deseja uma experiência "out-of-the-box" de alto nível, onde cada detalhe — do gerenciador de janelas aos serviços de sistema — foi ajustado por profissionais da arte do *rice*. 🎨
+### 🚧 Status do Desenvolvimento
+O projeto encontra-se em **fase de desenvolvimento ativo (Kernel & Core Optimization)**. Estamos estruturando a base do sistema, customizando os serviços `systemd` e refinando a implementação do ACR. A primeira *release candidate* está em fase de testes internos. ⏳
 
 ---
 
-## 💎 Diferenciais Técnicos
+## 🛠 Arquitetura & Diferenciais
 
-### 🚀 Performance e Otimização (Debloated)
-Acreditamos que o seu hardware deve trabalhar para você, não para processos desnecessários.
-* **Redução de Carga:** Removemos pacotes supérfluos, reduzindo o uso de RAM e ciclos de CPU em repouso.
-* **Otimização de Kernel:** Ajustes focados em responsividade e baixa latência.
-* **Serviços enxutos:** Apenas o necessário é executado, garantindo que o sistema inicie rápido e permaneça veloz mesmo após meses de uso.
+### 🚀 Performance & Otimização (Debloated)
+Diferente de sistemas genéricos, o Abyssal OS é otimizado para latência zero e uso eficiente de recursos:
+* **Kernel Tuning:** Otimizações focadas em throughput e responsividade de I/O.
+* **Minimalist Boot:** Redução agressiva de serviços desnecessários durante o *startup*.
+* **Memory Management:** Gerenciamento eficiente de RAM para fluxos de trabalho intensos (Desenvolvimento e Design).
 
 ### 📦 Abyssal Communal Repository (ACR)
-O futuro do Abyssal OS reside em sua soberania de software. 
-* O **ACR** é a nossa iniciativa para centralizar pacotes curados, drivers otimizados e ferramentas exclusivas.
-* Em futuras versões, o ACR será o hub principal para atualizações de segurança, temas exclusivos e utilitários que definem a identidade do Abyssal.
+O **ACR** é o coração da soberania de software do Abyssal OS.
+* **Estrutura:** Baseado estritamente em **RPM**, garantindo total compatibilidade com o ecossistema Fedora.
+* **Curadoria:** Repositório curado para fornecer drivers otimizados, *themes* exclusivos e ferramentas de produtividade.
+* **Nota Técnica:** O ACR é um projeto nativo e independente. **Não possuímos qualquer vínculo com o Arch User Repository (AUR)** ou bases similares.
 
 ---
 
-## 🖥️ Ambientes de Desktop
-Entendemos que cada workflow é único. Oferecemos o Abyssal OS em diferentes sabores, todos mantendo o padrão de qualidade:
-
-* **GNOME 🐚:** Elegante, moderno e integrado.
-* **KDE Plasma 🐉:** Personalização profunda com a leveza que você espera de um sistema otimizado.
-* **Hyprland 💠:** O ápice do workflow moderno. Um *tiling window manager* ultra-rápido, configurado com efeitos visuais impecáveis.
+## 🖥️ Ambientes de Desktop (Edições)
+Oferecemos experiências distintas para diferentes perfis de usuários:
+* **GNOME 🐚:** Foco em produtividade, fluidez e integração moderna.
+* **KDE Plasma 🐉:** Customização profunda mantendo o consumo de memória reduzido.
+* **Hyprland 💠:** Para os puristas do *tiling window manager*; ultra-rápido, estético e altamente configurável.
 
 ---
 
-## 🖼️ Galeria (Showcase)
-Veja o **Abyssal OS** em ação no nosso hardware de desenvolvimento (ThinkPad E470).
+## 🖼️ Showcase: Versão 26.07 (Ancient Abyss)
+Confira o estado atual do sistema em hardware real (ThinkPad E470):
 
 <div align="center">
   <a href="https://postimg.cc/fSZCj9FK">
     <img src="https://i.postimg.cc/vTxKy7tp/image.png" alt="Abyssal OS no ThinkPad E470" width="800"/>
   </a>
-  <p><i>Execução do sistema no hardware real (ThinkPad E470)</i></p>
+  <p><i>Sistema rodando fastfetch - Codinome: Ancient Abyss</i></p>
 </div>
 
 ---
 
-## 🛡️ Por que o Abyssal OS?
-1. **Base Estável:** A confiabilidade do Fedora com a nossa camada de otimização exclusiva. ✅
-2. **Rice Profissional:** Uma máquina de produtividade esteticamente superior desde o primeiro boot. 🌟
-3. **Preparado para o Futuro:** Com o ACR em desenvolvimento, você terá acesso a um repositório feito sob medida. 🔮
+## 📋 Roadmap (O Futuro do Abyssal)
+- [ ] **Fase Alpha:** Estabilização do Kernel e pacotes core.
+- [ ] **Fase Beta:** Lançamento da ISO para testes comunitários e implementação do instalador customizado.
+- [ ] **Fase RC:** Refinamento da interface gráfica e tema global (Abyssal Theme).
+- [ ] **Stable Release:** Disponibilização pública e suporte ao ACR.
 
 ---
 
-## 📝 Roadmap de Desenvolvimento
-- [ ] Lançamento da primeira ISO estável.
-- [ ] Implementação total do Abyssal Communal Repository (ACR).
-- [ ] Criação de um instalador customizado.
+## 🛡️ Por que escolher o Abyssal OS?
+1. **Base Sólida:** A segurança e estabilidade do Fedora como alicerce. ✅
+2. **Design Profissional:** Estética de *rice* aplicada ao workflow diário. 🌟
+3. **Soberania de Software:** Com o ACR, você não depende de repositórios legados. 🔮
+
+---
+
+## ⚖️ Licença
+Este projeto é regido pela **MIT License**. Para mais informações, consulte o arquivo [LICENSE](LICENSE).
 
 ---
 
 ## 👨‍💻 Créditos
-Feito por um 🇧🇷 com muito ☕.
+Desenvolvido por um brasileiro entusiasta de sistemas *low-level* e produtividade.
 
-**Desenvolvedor:** [Tatsu.py](https://github.com/rip-pky)
+**Lead Developer:** [Tatsu.py](https://github.com/rip-pky)
+**Account/Project:** [ag0nysh](https://github.com/ag0nysh)
+
+*“Computers are not for work, they are for creation.”* — **Terry A. Davis**
