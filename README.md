@@ -64,13 +64,15 @@ Oferecemos experiências distintas para diferentes perfis de usuários:
 
 ## 🖼️ Showcase: Versão 26.07 (Ancient Abyss)
 
-Confira o estado atual do sistema em hardware real (ThinkPad E470):
+Confira o estado atual do sistema em hardware real (**ThinkPad E470**).
+
+> **Observação:** Esta é uma versão de desenvolvimento. A versão estável **26.07f (Hadal)** será lançada futuramente.
 
 <div align="center">
   <a href="https://postimg.cc/fSZCj9FK">
-    <img src="https://i.postimg.cc/vTxKy7tp/image.png" alt="Abyssal OS no ThinkPad E470" width="800"/>
+    <img src="https://i.postimg.cc/vTxKy7tp/image.png" alt="Abyssal OS rodando em um ThinkPad E470" width="800"/>
   </a>
-  <p><i>Sistema rodando fastfetch - Codinome: Ancient Abyss</i></p>
+  <p><i>Sistema executando o Fastfetch — Codinome: Ancient Abyss</i></p>
 </div>
 
 ---
