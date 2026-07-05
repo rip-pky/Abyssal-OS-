@@ -1,35 +1,61 @@
-# 🌌 Abyssal OS [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Status](https://img.shields.io/badge/Status-Development-blue)](https://github.com/rip-pky/Abyssal-OS-)
+# 🌌 Abyssal OS
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Status](https://img.shields.io/badge/Status-Development-blue)](https://github.com/rip-pky/Abyssal-OS-)
 
 **"Command the Deep."** ⚓
 
 ---
 
 ## 📖 Visão Geral
-O **Abyssal OS** não é apenas uma distribuição; é uma solução de engenharia de sistema voltada para a convergência entre a robustez de nível corporativo do **Fedora** e a elegância estética do *ricing* moderno. Nosso foco é oferecer um ambiente de trabalho desobstruído, onde cada bit de performance é extraído do hardware.
+
+O **Abyssal OS** não é apenas uma distribuição; é uma solução de engenharia de sistema voltada para a convergência entre a robustez de nível corporativo do **Fedora** e a elegância estética do *ricing* moderno. Nosso objetivo é entregar máxima performance e controle absoluto, oferecendo um ambiente de trabalho desobstruído, limpo e pronto para um fluxo de trabalho de alta exigência, onde cada bit de performance é extraído do hardware.
 
 ### 🚧 Status do Desenvolvimento
+
 O projeto encontra-se em **fase de desenvolvimento ativo (Kernel & Core Optimization)**. Estamos estruturando a base do sistema, customizando os serviços `systemd` e refinando a implementação do ACR. A primeira *release candidate* está em fase de testes internos. ⏳
+
+---
+
+## ⚙️ Requisitos de Sistema
+
+Baseado nos padrões de performance do Fedora para garantir estabilidade e fluidez.
+
+* **Mínimo:**
+  * Processador: Dual Core 2GHz ou superior.
+  * Memória RAM: 4GB.
+  * Armazenamento: 20GB de espaço livre.
+* **Recomendado:**
+  * Processador: Quad Core 2GHz ou superior.
+  * Memória RAM: 8GB ou superior.
+  * Armazenamento: 40GB de espaço livre (SSD preferencial).
 
 ---
 
 ## 🛠 Arquitetura & Diferenciais
 
 ### 🚀 Performance & Otimização (Debloated)
+
 Diferente de sistemas genéricos, o Abyssal OS é otimizado para latência zero e uso eficiente de recursos:
-* **Kernel Tuning:** Otimizações focadas em throughput e responsividade de I/O.
+
+* **Debloated:** Eliminação agressiva de pacotes e serviços desnecessários para reduzir o uso de RAM/CPU.
+* **Kernel Tuning:** Otimizações de baixo nível focadas em throughput e responsividade de I/O.
 * **Minimalist Boot:** Redução agressiva de serviços desnecessários durante o *startup*.
 * **Memory Management:** Gerenciamento eficiente de RAM para fluxos de trabalho intensos (Desenvolvimento e Design).
 
 ### 📦 Abyssal Communal Repository (ACR)
+
 O **ACR** é o coração da soberania de software do Abyssal OS.
+
 * **Estrutura:** Baseado estritamente em **RPM**, garantindo total compatibilidade com o ecossistema Fedora.
-* **Curadoria:** Repositório curado para fornecer drivers otimizados, *themes* exclusivos e ferramentas de produtividade.
+* **Curadoria:** Repositório nativo e curado para fornecer drivers otimizados, *themes* exclusivos e ferramentas de produtividade.
 * **Nota Técnica:** O ACR é um projeto nativo e independente. **Não possuímos qualquer vínculo com o Arch User Repository (AUR)** ou bases similares.
 
 ---
 
 ## 🖥️ Ambientes de Desktop (Edições)
+
 Oferecemos experiências distintas para diferentes perfis de usuários:
+
 * **GNOME 🐚:** Foco em produtividade, fluidez e integração moderna.
 * **KDE Plasma 🐉:** Customização profunda mantendo o consumo de memória reduzido.
 * **Hyprland 💠:** Para os puristas do *tiling window manager*; ultra-rápido, estético e altamente configurável.
@@ -37,6 +63,7 @@ Oferecemos experiências distintas para diferentes perfis de usuários:
 ---
 
 ## 🖼️ Showcase: Versão 26.07 (Ancient Abyss)
+
 Confira o estado atual do sistema em hardware real (ThinkPad E470):
 
 <div align="center">
@@ -49,14 +76,16 @@ Confira o estado atual do sistema em hardware real (ThinkPad E470):
 ---
 
 ## 📋 Roadmap (O Futuro do Abyssal)
+
 - [ ] **Fase Alpha:** Estabilização do Kernel e pacotes core.
-- [ ] **Fase Beta:** Lançamento da ISO para testes comunitários e implementação do instalador customizado.
-- [ ] **Fase RC:** Refinamento da interface gráfica e tema global (Abyssal Theme).
-- [ ] **Stable Release:** Disponibilização pública e suporte ao ACR.
+- [ ] **Fase Beta:** Refinamento dos scripts de build, otimização de imagem e lançamento da ISO para testes comunitários.
+- [ ] **Fase RC:** Implementação da infraestrutura central do ACR, desenvolvimento do instalador próprio e refinamento da interface gráfica (Abyssal Theme).
+- [ ] **Stable Release:** Lançamento da primeira ISO estável, disponibilização pública e suporte ao ACR.
 
 ---
 
 ## 🛡️ Por que escolher o Abyssal OS?
+
 1. **Base Sólida:** A segurança e estabilidade do Fedora como alicerce. ✅
 2. **Design Profissional:** Estética de *rice* aplicada ao workflow diário. 🌟
 3. **Soberania de Software:** Com o ACR, você não depende de repositórios legados. 🔮
@@ -64,14 +93,18 @@ Confira o estado atual do sistema em hardware real (ThinkPad E470):
 ---
 
 ## ⚖️ Licença
+
 Este projeto é regido pela **MIT License**. Para mais informações, consulte o arquivo [LICENSE](LICENSE).
 
 ---
 
-## 👨‍💻 Créditos
+## 👨‍💻 Créditos & Contato
+
 Desenvolvido por um brasileiro entusiasta de sistemas *low-level* e produtividade.
 
-**Lead Developer:** [Tatsu.py](https://github.com/rip-pky)
-**Account/Project:** [ag0nysh](https://github.com/ag0nysh)
+* **Lead Developer:** [Tatsu.py](https://github.com/rip-pky)
+* **Account/Project:** [ag0nysh](https://github.com/ag0nysh)
 
-*“Computers are not for work, they are for creation.”* — **Terry A. Davis**
+---
+
+> *"Computers are not for work, they are for creation."* — **Terry A. Davis**
