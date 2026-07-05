@@ -68,4 +68,3 @@ Veja o **Abyssal OS** em ação no nosso hardware de desenvolvimento (ThinkPad E
 Feito por um 🇧🇷 com muito ☕.
 
 **Desenvolvedor:** [Tatsu.py](https://github.com/rip-pky)
-**Conta secundária/Projeto:** [ag0nysh](https://github.com/ag0nysh)
